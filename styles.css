@@ -1,0 +1,234 @@
+/**Generales*/
+section {
+    padding-bottom: 30px;
+}
+
+.titulo {
+    padding: 20px 20px;
+    font-family: "Rubik Dirt", cursive;
+}
+
+
+/**Navbar*/
+.navtit {
+    color: #fff;
+    font-family: sans-serif, cursive;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.navul {
+    text-align: center;
+    padding-left: 280px;
+    padding-right: 150px;
+    
+}
+
+/**Acerca de*/
+.datos-per {
+    padding-top: 50px;
+    font-size: 1.2rem;
+    font-family: sans-serif, cursive;
+}
+
+.img-perfil {
+   width: 70%;
+   height: 70%;
+   margin-top: -5rem;
+}
+
+.content-descarga {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f1f6ff;
+    text-align: center;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    box-shadow: 4px 4px #000000;
+}
+
+.descarga-ahora {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 20px;
+    background: #000000;
+    color: white;
+    border-radius: 5px;
+}
+
+.descarga-ahora:hover {
+    opacity: 0.9;
+}
+
+.btn-descarga {
+    display: inline-block;
+    padding: 15px 25px;
+    background: #000000;
+    color: #fff;
+    border: none;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    border-radius: 5px;
+    outline: 0px;
+    cursor: pointer;
+}
+
+.btn-descarga:hover {
+    opacity: 0.9;
+}
+
+.desc {
+    margin-left: 5px;
+}
+
+.desc-cv {
+    padding-top: 40px;
+}
+
+/**Experiencia*/
+.experiencia {
+   border-bottom: 1.5px solid black;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-top: -5rem;
+}
+
+.i-exp {
+    color: black;
+    font-size: 3rem;
+}
+
+.experiencia-titulo {
+    font-size: 1.5rem;
+    font-family: sans-serif, cursive;
+    font-weight: bold;
+}
+
+.exp-descripcion {
+    font-family: sans-serif, cursive;
+    font-size: 1.1rem;
+}
+
+/**Educacion*/
+
+.educhab {
+    border-bottom: 1.5px solid black;
+    padding-bottom: 10px;
+    margin-left: 50px;
+   margin-right: 50px;
+}
+
+
+
+/**Habilidades*/
+
+.prog {
+    background-color: rgb(197, 196, 196);
+    height: 3.5rem;
+    
+}
+
+
+.text-htm {
+    font-size: 1.4rem;
+    font-family: sans-serif, cursive;
+    padding-bottom: 20px;
+}
+
+.anim {
+    margin-top: 40px;
+    color:#fff;
+    font-family: sans-serif, cursive;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.anim:hover {
+    color:#fff;
+}
+
+
+.inicio {
+    width: 0%;
+}
+
+.final {
+ width: 90%;
+}
+
+.animacion {
+    transition: all 2s ease .5s;
+}
+
+/**Proyectos*/
+#proyectos {
+    align-items: center;
+    align-content: center;
+}
+
+.card-title {
+    font-size: 1.3rem;
+    font-family: sans-serif, cursive;
+    font-weight: bold;
+}
+
+
+/*Footer*/
+footer {
+    height: 200px;
+    width: 100%;
+}
+
+.footer-texto {
+    font-size: 1.1rem;
+    padding: 3px;
+    margin-bottom: 3px;
+    color: white;
+}
+
+.iconos-redes-sociales a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 2px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;    
+}
+
+ i {
+    color: white;
+    font-size: 1.1rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.iconos-redes-sociales a:hover i {
+    color: rgb(22, 21, 22);
+}
+
+.derechos-de-autor {
+    font-size: 15px;
+    color: white;
+    padding: 1px;
+}
+
+.pie-pag {
+    background-color: rgb(0, 0, 0);
+}
+
+/**Ajustables*/
+@media screen and (max-width:500px) {
+    .content-descarga {
+        display: none;
+    }
+    
+}
